@@ -67,7 +67,7 @@ export interface Log {
 export interface TraceNodeData {
     id: string;
     name: string;
-    type: "basic" | "skill" | "ultimate" | "talent" | "technique" | "bonus" | "stat";
+    type: "basic" | "skill" | "ultimate" | "talent" | "technique" | "bonus" | "stat" | "elationSkill" | "memosprite";
     level?: string;
     icon: string;
     description: string | ((levelIndex: number) => string);

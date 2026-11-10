@@ -11047,7 +11047,7 @@ const Aglaea: Character = {
         b4: {
             id: "b4",
             name: "A Body Brewed by Tears",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Aglaea", "ABodyBrewedbyTears"),
             description: (i) => `
@@ -11061,7 +11061,7 @@ const Aglaea: Character = {
         b5: {
             id: "b5",
             name: "Thorned Snare",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Aglaea", "ThornedSnare"),
             description: (i) => `
@@ -11939,7 +11939,7 @@ const Castorice: Character = {
         b4: {
             id: "b4",
             name: "Mooncocoon Shrouds the Form",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Castorice", "MooncocoonShroudstheForm"),
             description: (i) => `
@@ -11955,7 +11955,7 @@ const Castorice: Character = {
         b5: {
             id: "b5",
             name: "Claw Splits the Veil",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Castorice", "ClawSplitstheVeil"),
             description: (i) => `
@@ -12315,7 +12315,7 @@ const Hyacine: Character = {
         b4: {
             id: "b4",
             name: "Take Sky in Hand",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Hyacine", "TakeSkyinHand"),
             description: (i) => `
@@ -12329,7 +12329,7 @@ const Hyacine: Character = {
         b5: {
             id: "b5",
             name: "Rainclouds, Time to Go!",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Hyacine", "RaincloudsTimetoGo"),
             description: (i) => `
@@ -12859,7 +12859,7 @@ const Evernight: Character = {
         b4: {
             id: "b4",
             name: "Solitude, Drifting, In Murk",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Evernight", "SolitudeDriftingInMurk"),
             description: (i) => `
@@ -12873,7 +12873,7 @@ const Evernight: Character = {
         b5: {
             id: "b5",
             name: "Remembrance, Whirling, Like Rain",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Evernight", "RemembranceWhirlingLikeRain"),
             description: (i) => `
@@ -13231,7 +13231,7 @@ const Cyrene: Character = {
         b4: {
             id: "b4",
             name: "Waiting, In Every Past",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Cyrene", "WaitingInEveryPast"),
             description: (i) => `
@@ -13243,7 +13243,7 @@ const Cyrene: Character = {
         b5: {
             id: "b5",
             name: "Minuet of Blooms and Plumes",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("Cyrene", "ThisOdetoAllLives"),
             description: (i) => `
@@ -13427,7 +13427,7 @@ const Sparxie: Character = {
         b1: {
             id: "b1",
             name: "Signal Overflow: The Great Encore!",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/10",
             icon: charIcon("Sparxie", "SignalOverflowTheGreatEncore"),
             description: (i) => `
@@ -13611,7 +13611,7 @@ const YaoGuang: Character = {
         b1: {
             id: "b1",
             name: "Let Thy Fortune Burst in Flames",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/1",
             icon: charIcon("YaoGuang", "LetThyFortuneBurstinFlames"),
             description: (i) => `
@@ -13969,7 +13969,7 @@ const Evanescia: Character = {
         b1: {
             id: "b1",
             name: "Scarlet: Elation or Execution",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/1",
             icon: charIcon("Evanescia", "ScarletElationorExecution"),
             description: (i) => `
@@ -14153,7 +14153,7 @@ const SilverWolfLV999: Character = {
         b1: {
             id: "b1",
             name: "Elation Skill",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/1",
             icon: charIcon("SilverWolfLV999", "ElationSkill"),
             description: (i) => `
@@ -15063,7 +15063,7 @@ const RobinSummeretto: Character = {
         b4: {
             id: "b4",
             name: "A Warble of Wings",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("RobinSummeretto", "AWarbleofWings"),
             description: (i) => `
@@ -15077,7 +15077,7 @@ const RobinSummeretto: Character = {
         b5: {
             id: "b5",
             name: "Chirrup Quartet",
-            type: "bonus",
+            type: "memosprite",
             level: "1/1",
             icon: charIcon("RobinSummeretto", "ChirrupQuartet"),
             description: (i) => `
@@ -15233,7 +15233,7 @@ const AventurineWaveflair: Character = {
         b1: {
             id: "b1",
             name: "Elation Skill: Cheers! To Summer's Blaze",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/10",
             icon: charIcon("AventurineWaveflair", "ElationSkill"),
             description: (i) => `
@@ -15422,7 +15422,7 @@ When an ally target's current HP percentage is 50% or lower, their DMG taken get
         b1: {
             id: "b1",
             name: "Dissolve Reason into Elation",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/10",
             icon: charIcon("Pearl", "DissolveReasonintoElation"),
             description: (i) => `
@@ -15623,7 +15623,7 @@ const Nihilux: Character = {
         b1: {
             id: "b1",
             name: "Elation Skill: Yes Aha At Full Moon",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/10",
             icon: charIcon("Nihilux", "elationSkill"),
             description: (i) => `
@@ -16360,7 +16360,7 @@ const TrailblazerRemembrance: Character = {
         b4: {
             id: "b4",
             name: "Friends! Together!",
-            type: "bonus",
+            type: "memosprite",
             level: "1/10",
             icon: charIcon("NICKNAME", "MemoTalent"),
             description: (i) => `
@@ -16374,7 +16374,7 @@ const TrailblazerRemembrance: Character = {
         b5: {
             id: "b5",
             name: "Baddies! Trouble!",
-            type: "bonus",
+            type: "memosprite",
             level: "1/10",
             icon: charIcon("NICKNAME", "MemoSkill"),
             description: (i) => `
@@ -16530,7 +16530,7 @@ const TrailblazerElation: Character = {
         b1: {
             id: "b1",
             name: "I Said \"Elation,\" Did I Stutter?",
-            type: "bonus",
+            type: "elationSkill",
             level: "1/10",
             icon: charIcon("NICKNAME", "ISaidElationDidIStutter"),
             description: (i) => `

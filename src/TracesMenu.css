@@ -131,6 +131,100 @@
   filter: invert(1);
 }
 
+.node-type-memosprite .hsr-trace-node-btn,
+.node-type-elationSkill .hsr-trace-node-btn {
+  position: relative;
+  isolation: isolate;
+  width: 50px;
+  height: 50px;
+}
+
+.node-type-memosprite .hsr-trace-node-btn {
+  background: radial-gradient(circle, rgba(70, 35, 110, 0.95) 0%, rgba(22, 12, 40, 0.98) 80%);
+  border-color: #c79bff;
+  box-shadow: 
+    0 0 10px rgba(171, 107, 255, 0.55),
+    inset 0 0 10px rgba(171, 107, 255, 0.35);
+  animation: memoAura 3s ease-in-out infinite;
+}
+
+.node-type-memosprite .hsr-trace-node-btn::after {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 50%;
+  border: 2px solid rgba(199, 155, 255, 0.7);
+  z-index: -1;
+  pointer-events: none;
+  animation: memoRipple 3s ease-out infinite;
+}
+
+.node-type-memosprite .hsr-node-level {
+  border-color: rgba(199, 155, 255, 0.6);
+  color: #e6d2ff;
+  box-shadow: 0 0 6px rgba(171, 107, 255, 0.4);
+}
+
+.node-type-memosprite.selected .hsr-trace-node-btn {
+  border-color: #fff;
+  box-shadow: 
+    0 0 18px rgba(199, 155, 255, 0.9),
+    inset 0 0 12px rgba(199, 155, 255, 0.5);
+}
+
+.node-type-elationSkill .hsr-trace-node-btn {
+  background: radial-gradient(circle, rgba(95, 25, 15, 0.95) 0%, rgba(30, 10, 8, 0.98) 80%);
+  border-color: #ff9a4d;
+  box-shadow: 
+    0 0 10px rgba(255, 106, 40, 0.9),
+    inset 0 0 10px rgba(255, 80, 30, 0.35);
+  animation: elationFlicker 1.8s ease-in-out infinite;
+}
+
+.node-type-elationSkill .hsr-trace-node-btn::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 0deg,
+    #ff2d2d,
+    #ff8a1f,
+    #ffd24d,
+    #ff8a1f,
+    #ff2d2d,
+    #c4161c,
+    #ff2d2d
+  );
+  filter: blur(3px);
+  opacity: 0.85;
+  z-index: -1;
+  pointer-events: none;
+  animation: elationSpin 3.5s linear infinite;
+}
+
+.node-type-elationSkill .hsr-node-icon {
+  filter: drop-shadow(0 0 5px rgba(255, 140, 50, 0.95));
+}
+
+.node-type-elationSkill .hsr-node-level {
+  border-color: rgba(255, 154, 77, 0.65);
+  color: #ffd9b8;
+  box-shadow: 0 0 6px rgba(255, 106, 40, 0.5);
+}
+
+.node-type-elationSkill.selected .hsr-trace-node-btn {
+  border-color: #fff;
+  box-shadow: 
+    0 0 20px rgba(255, 130, 40, 0.95),
+    inset 0 0 12px rgba(200, 100, 40, 0.5);
+}
+
+.node-type-elationSkill.selected .hsr-trace-node-btn::before {
+  opacity: 1;
+  inset: -7px;
+}
+
 .hsr-node-icon {
   width: 99%;
   height: 99%;
@@ -266,6 +360,35 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+@keyframes memoAura {
+  0%, 100% {
+    box-shadow: 
+      0 0 8px rgba(171, 107, 255, 0.45),
+      inset 0 0 8px rgba(171, 107, 255, 0.3);
+  }
+  50% {
+    box-shadow: 
+      0 0 18px rgba(199, 155, 255, 0.85),
+      inset 0 0 14px rgba(171, 107, 255, 0.5);
+  }
+}
+
+@keyframes memoRipple {
+  0%   { transform: scale(1);   opacity: 0.8; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+
+@keyframes elationSpin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes elationFlicker {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 106, 40, 0.55), inset 0 0 10px rgba(255, 80, 30, 0.3); }
+  25%      { box-shadow: 0 0 16px rgba(255, 140, 50, 0.85), inset 0 0 12px rgba(255, 80, 30, 0.45); }
+  50%      { box-shadow: 0 0 12px rgba(255, 70, 40, 0.65),  inset 0 0 10px rgba(255, 80, 30, 0.35); }
+  75%      { box-shadow: 0 0 18px rgba(255, 170, 60, 0.9),  inset 0 0 14px rgba(255, 100, 30, 0.5); }
 }
 
 /* --- Control de Nivel & Slider */
@@ -469,5 +592,28 @@
   .hsr-level-slider::-moz-range-thumb {
     width: 24px;
     height: 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .node-type-memosprite .hsr-trace-node-btn::after {
+    animation-duration: 4s;
+  }
+
+  .node-type-elationSkill .hsr-trace-node-btn::before {
+    filter: blur(2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .node-type-memosprite .hsr-trace-node-btn,
+  .node-type-memosprite .hsr-trace-node-btn::after,
+  .node-type-elationSkill .hsr-trace-node-btn,
+  .node-type-elationSkill .hsr-trace-node-btn::before {
+    animation: none;
+  }
+
+  .node-type-memosprite .hsr-trace-node-btn::after {
+    opacity: 0;
   }
 }
