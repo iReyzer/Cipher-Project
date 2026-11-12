@@ -2268,6 +2268,20 @@ export const Texts = {
         return `Increases the wearer's base Speed by ${SPD}. When using a Skill on one other ally, gains ${PunchLine} Punchline. This effect can trigger at most once every interval of 1 turn(s). Then, causes all allies to ignore ${IgnoreDEF}% of the enemy target's DEF when dealing DMG during this combat. This effect cannot be stacked.`;
     },
 
+    NoShiftsonRainyDaysENG: (rank: number): string => {
+
+        const index = Math.max(0, Math.min(rank - 1, 4));
+
+        return `Lightcone in Beta ${index}`;
+    },
+
+    ShineBrightLikeHerENG: (rank: number): string => {
+
+        const index = Math.max(0, Math.min(rank - 1, 4));
+
+        return `Lightcone in Beta ${index}`;
+    },
+
 } as const;
 
 export type Text = typeof Texts[keyof typeof Texts];

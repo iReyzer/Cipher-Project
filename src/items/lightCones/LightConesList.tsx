@@ -3933,3 +3933,47 @@ const UpontheFirstEchoOfAha: LightCone = {
 };
 
 LightCones.push(UpontheFirstEchoOfAha);
+
+const NoShiftsonRainyDays: LightCone = {
+
+    name: `No Shifts on Rainy Days`,
+
+    path: Paths.Destruction,
+
+    description: Texts.NoShiftsonRainyDaysENG,
+
+    image: lightConeImg("NoShiftsonRainyDays"),
+
+    baseHP: 953,
+
+    baseATK: 582,
+
+    baseDEF: 529,
+
+    dupe: 1,
+
+};
+
+LightCones.push(NoShiftsonRainyDays);
+
+const ShineBrightLikeHer: LightCone = {
+
+    name: `Shine Bright Like Her`,
+
+    path: Paths.Harmony,
+
+    description: Texts.ShineBrightLikeHerENG,
+
+    image: lightConeImg("ShineBrightLikeHer"),
+
+    baseHP: 952,
+
+    baseATK: 582,
+
+    baseDEF: 529,
+
+    dupe: 1,
+
+};
+
+LightCones.push(ShineBrightLikeHer);

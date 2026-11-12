@@ -15664,78 +15664,426 @@ const Nihilux: Character = {
         // --- Stats Nodes ---
         s1: {
                 id: "s1",
-                name: "ATK Boost",
+                name: "CRIT DMG Boost",
                 type: "stat",
-                icon: statIcon("ATK"),
-                description: "<h3><b>Character in beta</b></h3>",
+                icon: statIcon("CritDMG"),
+                description: "CRIT DMG increases by <b><u>5.3%</u></b>",
             },
         s2: {
                 id: "s2",
-                name: "ATK Boost",
+                name: "CRIT DMG Boost",
                 type: "stat",
-                icon: statIcon("ATK"),
-                description: "<h3><b>Character in beta</b></h3>",
+                icon: statIcon("CritDMG"),
+                description: "CRIT DMG increases by <b><u>8.0%</u></b>",
             },
         s3: {
                 id: "s3",
                 name: "CRIT Rate Boost",
                 type: "stat",
                 icon: statIcon("CritRate"),
-                description: "<h3><b>Character in beta</b></h3>",
+                description: "CRIT Rate increases by <b><u>4.0%</u></b>",
             },
         s4: {
                 id: "s4",
                 name: "CRIT Rate Boost",
                 type: "stat",
                 icon: statIcon("CritRate"),
-                description: "<h3><b>Character in beta</b></h3>",
+                description: "CRIT Rate increases by <b><u>2.7%</u></b>",
             },
         s5: {
                 id: "s5",
-                name: "ATK Boost",
+                name: "CRIT DMG Boost",
                 type: "stat",
-                icon: statIcon("ATK"),
-                description: "<h3><b>Character in beta</b></h3>",
+                icon: statIcon("CritDMG"),
+                description: "CRIT DMG increases by <b><u>10.7%</u></b>",
             },
         s6: {
                 id: "s6",
                 name: "CRIT Rate Boost",
                 type: "stat",
                 icon: statIcon("CritRate"),
-                description: "<h3><b>Character in beta</b></h3>",
+                description: "CRIT Rate increases by <b><u>5.3%</u></b>",
             },
         s7: {
                 id: "s7",
-                name: "ATK Boost",
+                name: "CRIT DMG Boost",
                 type: "stat",
-                icon: statIcon("ATK"),
-                description: "<h3><b>Character in beta</b></h3>",
+                icon: statIcon("CritDMG"),
+                description: "CRIT DMG increases by <b><u>5.3%</u></b>",
             },
         s8: {
                 id: "s8",
-                name: "CRIT DMG Boost",
+                name: "SPD Boost",
                 type: "stat",
-                icon: statIcon("CritDMG"),
-                description: "<h3><b>Character in beta</b></h3>",
+                icon: statIcon("SPD"),
+                description: "SPD increases by <b><u>2</u></b>",
             },
         s9: {
                 id: "s9",
-                name: "ATK Boost",
-                type: "stat",
-                icon: statIcon("ATK"),
-                description: "<h3><b>Character in beta</b></h3>",
-            },
-        s10: {
-                id: "s10",
                 name: "CRIT DMG Boost",
                 type: "stat",
                 icon: statIcon("CritDMG"),
-                description: "<h3><b>Character in beta</b></h3>",
+                description: "CRIT DMG increases by <b><u>8.0%</u></b>",
+            },
+        s10: {
+                id: "s10",
+                name: "SPD Boost",
+                type: "stat",
+                icon: statIcon("SPD"),
+                description: "SPD increases by <b><u>3</u></b>",
             },
   },
 };
 
 Characters.push(Nihilux);
+
+const Ellen: Character = {
+  name: "Ellen",
+  path: Paths.Destruction,
+  element: Elements.Ice,
+  world: Worlds.AnotherWorld,
+  image: charSplash("Ellen"),
+  pfp: charPfp("Ellen"),
+  eidolons: Eidolons.EllenEidolons,
+
+  baseATK: 757,
+  baseDEF: 485,
+  baseHP: 1125,
+  baseSPD: 96,
+  aggro: 125,
+  dupe: 0,
+
+  traces: {
+        attack: {
+            id: "attack",
+            name: "Basic ATK: Saw Teeth Trimming",
+            type: "basic",
+            level: "1/7",
+            icon: charIcon("Ellen", "BasicATK"),
+            description: (i) => `
+            <b><u>Character in beta ${i}</b></u>
+        `,
+        },
+        skill: {
+            id: "skill",
+            name: "Skill: Blizzard du Jour",
+            type: "skill",
+            level: "1/12",
+            icon: charIcon("Ellen", "Skill"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        ultimate: {
+            id: "ultimate",
+            name: "Ultimate: Welcome to the Ice Age",
+            type: "ultimate",
+            level: "1/12",
+            icon: charIcon("Ellen", "Ultimate"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        talent: {
+            id: "talent",
+            name: "Talent: Better Call Bangboo",
+            type: "talent",
+            level: "1/12",
+            icon: charIcon("Ellen", "Talent"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        technique: {
+            id: "technique",
+            name: "Technique: Roaming Hunt",
+            type: "technique",
+            level: "1/1",
+            icon: charIcon("Ellen", "Technique"),
+            description: `
+        <b><u>Character in beta</b></u>
+      `,
+        },
+        // --- Pasivas ---
+        b1: {
+            id: "b1",
+            name: "Roaming Mode",
+            type: "bonus",
+            level: "1/10",
+            icon: charIcon("Ellen", "RoamingMode"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        b2: {
+            id: "b2",
+            name: "Diving Status",
+            type: "bonus",
+            level: "1/1",
+            icon: charIcon("Ellen", "DivingStatus"),
+            description: `
+        <b><u>Character in beta</b></u>
+      `,
+        },
+        b3: {
+            id: "b3",
+            name: "Dining Etiquette",
+            type: "bonus",
+            level: "1/1",
+            icon: charIcon("Ellen", "DiningEtiquette"),
+            description: `
+        <b><u>Character in beta</b></u>
+      `,
+        },
+        // --- Stats Nodes ---
+        s1: {
+                id: "s1",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s2: {
+                id: "s2",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s3: {
+                id: "s3",
+                name: "CRIT Rate Boost",
+                type: "stat",
+                icon: statIcon("CritRate"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s4: {
+                id: "s4",
+                name: "CRIT Rate Boost",
+                type: "stat",
+                icon: statIcon("CritRate"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s5: {
+                id: "s5",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s6: {
+                id: "s6",
+                name: "CRIT Rate Boost",
+                type: "stat",
+                icon: statIcon("CritRate"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s7: {
+                id: "s7",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s8: {
+                id: "s8",
+                name: "SPD Boost",
+                type: "stat",
+                icon: statIcon("SPD"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s9: {
+                id: "s9",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s10: {
+                id: "s10",
+                name: "SPD Boost",
+                type: "stat",
+                icon: statIcon("SPD"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+  },
+};
+
+Characters.push(Ellen);
+
+const AstraYao: Character = {
+  name: "Astra Yao",
+  path: Paths.Harmony,
+  element: Elements.Quantum,
+  world: Worlds.AnotherWorld,
+  image: charSplash("AstraYao"),
+  pfp: charPfp("AstraYao"),
+  eidolons: Eidolons.AstraYaoEidolons,
+
+  baseATK: 659,
+  baseDEF: 460,
+  baseHP: 1241,
+  baseSPD: 99,
+  aggro: 100,
+  dupe: 0,
+
+  traces: {
+        attack: {
+            id: "attack",
+            name: "Basic ATK: Pirouette Pianissimo",
+            type: "basic",
+            level: "1/7",
+            icon: charIcon("AstraYao", "BasicATK"),
+            description: (i) => `
+            <b><u>Character in beta ${i}</b></u>
+        `,
+        },
+        skill: {
+            id: "skill",
+            name: "Skill: Shine for You in Every Hue",
+            type: "skill",
+            level: "1/12",
+            icon: charIcon("AstraYao", "Skill"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        ultimate: {
+            id: "ultimate",
+            name: "Ultimate: Astral Encore",
+            type: "ultimate",
+            level: "1/12",
+            icon: charIcon("AstraYao", "Ultimate"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        talent: {
+            id: "talent",
+            name: "Talent: Play the Galaxy's Message",
+            type: "talent",
+            level: "1/12",
+            icon: charIcon("AstraYao", "Talent"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        technique: {
+            id: "technique",
+            name: "Technique: An Overture in Reverie",
+            type: "technique",
+            level: "1/1",
+            icon: charIcon("AstraYao", "Technique"),
+            description: `
+        <b><u>Character in beta</b></u>
+      `,
+        },
+        // --- Pasivas ---
+        b1: {
+            id: "b1",
+            name: "Fantasia Scale",
+            type: "bonus",
+            level: "1/10",
+            icon: charIcon("AstraYao", "FantasiaScale"),
+            description: (i) => `
+        <b><u>Character in beta ${i}</b></u>
+      `,
+        },
+        b2: {
+            id: "b2",
+            name: "Filigree Aria",
+            type: "bonus",
+            level: "1/1",
+            icon: charIcon("AstraYao", "FiligreeAria"),
+            description: `
+        <b><u>Character in beta</b></u>
+      `,
+        },
+        b3: {
+            id: "b3",
+            name: "Nevernight Tour",
+            type: "bonus",
+            level: "1/1",
+            icon: charIcon("AstraYao", "NevernightTour"),
+            description: `
+        <b><u>Character in beta</b></u>
+      `,
+        },
+        // --- Stats Nodes ---
+        s1: {
+                id: "s1",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s2: {
+                id: "s2",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s3: {
+                id: "s3",
+                name: "CRIT Rate Boost",
+                type: "stat",
+                icon: statIcon("CritRate"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s4: {
+                id: "s4",
+                name: "CRIT Rate Boost",
+                type: "stat",
+                icon: statIcon("CritRate"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s5: {
+                id: "s5",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s6: {
+                id: "s6",
+                name: "CRIT Rate Boost",
+                type: "stat",
+                icon: statIcon("CritRate"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s7: {
+                id: "s7",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s8: {
+                id: "s8",
+                name: "SPD Boost",
+                type: "stat",
+                icon: statIcon("SPD"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s9: {
+                id: "s9",
+                name: "CRIT DMG Boost",
+                type: "stat",
+                icon: statIcon("CritDMG"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+        s10: {
+                id: "s10",
+                name: "SPD Boost",
+                type: "stat",
+                icon: statIcon("SPD"),
+                description: "<b><u>Character in beta</b></u>",
+            },
+  },
+};
+
+Characters.push(AstraYao);
 
 const Trailblazer: Character = {
   name: "Trailblazer Destruction",

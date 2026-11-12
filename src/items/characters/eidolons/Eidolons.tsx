@@ -6050,3 +6050,131 @@ export const NihiluxEidolons: Eidolons = {
     },
 
 };
+
+export const EllenEidolons: Eidolons = {
+
+    e1: {
+
+        title: "Moods Packed and Ready",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("Ellen", 1),
+
+    },
+
+    e2: {
+
+        title: "Pinch a Smile at the Mirror",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("Ellen", 2),
+
+    },
+
+    e3: {
+
+        title: "The Morning Melts Sweet",
+
+        desc: `Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.`,
+
+        image: charEidolon("Ellen", 3),
+
+    },
+
+    e4: {
+
+        title: "A Heart Served All the Same",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("Ellen", 4),
+
+    },
+
+    e5: {
+
+        title: "The Ocean Swims Her Home",
+
+        desc: `Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.`,
+
+        image: charEidolon("Ellen", 5),
+
+    },
+
+    e6: {
+
+        title: "Fed, Rested, and Left Alone",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("Ellen", 6),
+
+    },
+
+};
+
+export const AstraYaoEidolons: Eidolons = {
+
+    e1: {
+
+        title: "Her Drumbeat Moves the Stars",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("AstraYao", 1),
+
+    },
+
+    e2: {
+
+        title: "The Sun Sets in Her Eyes",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("AstraYao", 2),
+
+    },
+
+    e3: {
+
+        title: "Shh, the Wind Has Ears",
+
+        desc: `Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.`,
+
+        image: charEidolon("AstraYao", 3),
+
+    },
+
+    e4: {
+
+        title: "Toasted Alone on Both Sides",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("AstraYao", 4),
+
+    },
+
+    e5: {
+
+        title: "The Stylus Scripts Her Soul",
+
+        desc: `Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.`,
+
+        image: charEidolon("AstraYao", 5),
+
+    },
+
+    e6: {
+
+        title: "Until the Footlights Flare",
+
+        desc: `Character in beta`,
+
+        image: charEidolon("AstraYao", 6),
+
+    },
+
+};

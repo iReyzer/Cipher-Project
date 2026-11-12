@@ -56,4 +56,16 @@ const v4_7b_3: Log = {
     ]
 }
 
-export const changes: Log[] = [v4_7b_3, v4_7b_2, v4_7b, v4_6, v4_5_2, v4_5];
+const v4_7: Log = {
+    version: "4.7",
+    title: "Now, Lay Laughter to All Stars",
+    changes: [
+        `Finished Stats of Aeon ★ Aha | [Nihilux] character`,
+        `Added Ellen beta character`,
+        `Added Astra Yao beta character`,
+        `Added No Shifts on Rainy Days beta lightcone`,
+        `Added Shine Bright Like Her beta lightcone`
+    ]
+}
+
+export const changes: Log[] = [v4_7, v4_7b_3, v4_7b_2, v4_7b, v4_6, v4_5_2, v4_5];
