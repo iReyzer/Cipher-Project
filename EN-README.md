@@ -1,6 +1,6 @@
 # ⚔️ Cipher Project
 
-**Honkai: Star Rail — Damage Calculator**
+**Honkai: Star Rail — WIKI**
 
 A page where you can find data about all the **Honkai: Star Rail** characters.
 
