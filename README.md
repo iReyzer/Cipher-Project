@@ -132,8 +132,6 @@ Este proyecto es una aplicación **no oficial y creada por un fan**, y no está 
 
 ## ⭐ Contribuciones y feedback
 
-Aunque el proyecto se encuentra en una fase Alpha, los reportes de errores y sugerencias son bienvenidos.
-
 Si encuentras algún problema, utiliza el sistema de **Issues** del repositorio para reportarlo.
 
 ---
