@@ -46,7 +46,7 @@ La experiencia puede variar en otras resoluciones o relaciones de aspecto.
 ### 📱 Móviles y tablets
 
 > [!NOTE]
-> La compatibilidad con móviles y tablets **recien implementada, si experimentan algun tipo de falla crear una issue en github**.
+> Es funcional pero al actualizar cosas y añadir nuevas puede tardar en ajustarse para estos dispositivos
 
 ---
 
