@@ -1,4 +1,4 @@
-# ⚔️ Cipher Calculator
+# ⚔️ Cipher Project
 
 **Cipher Project**
 
