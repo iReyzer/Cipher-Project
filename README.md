@@ -1,6 +1,6 @@
 # ⚔️ Cipher Project
 
-**Cipher Project**
+**Honkai: Star Rail — WIKI**
 
 Una pagina donde se podrán consultar datos de los personajes para **Honkai: Star Rail**.
 
