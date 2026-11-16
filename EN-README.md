@@ -6,7 +6,7 @@ A page where you can find data about all the **Honkai: Star Rail** characters.
 
 > [!NOTE]
 >
-> This project is in its 1st Release it might have errors.
+> The project is constantly being updated, and the aim is to keep it always up to date—including characters currently in beta (as well as LCs).
 
 ---
 
@@ -46,7 +46,7 @@ The experience may vary on other resolutions or aspect ratios.
 ### 📱 Mobile & Tablets
 
 > [!NOTE]
-> Mobile and tablet compatibility **has just been added, if errors are found, please create an github issue**.
+> It is functional, but when things are updated or new features are added, it may take some time to adapt to these devices.
 
 ---
 
@@ -80,7 +80,6 @@ This project **is not intended to be a copy** of the original website.
 If you encounter:
 
 * Interface bugs
-* Incorrect calculations
 * Characters not working correctly
 * Missing Light Cones
 * Compatibility issues
