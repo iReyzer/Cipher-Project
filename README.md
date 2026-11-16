@@ -2,11 +2,11 @@
 
 **Cipher Project**
 
-Una pagina donde se podran consultar datos de los personajes para **Honkai: Star Rail**.
+Una pagina donde se podrán consultar datos de los personajes para **Honkai: Star Rail**.
 
 > [!NOTE]
 >
-> El projecto acutalmente se encuentra en **su primera release** puede que haya fallos, se pide que los reporten en caso de encontrarlos
+> El proyecto esta en constante actualización y se intenta que siempre este al día, incluyendo los personajes que estén en beta (ademas de los LC)
 
 ---
 
@@ -24,7 +24,7 @@ El proyecto se encuentra en su primera release.
 
 ### Personajes
 
-Actualmente estan **todos los personages implementados**.
+Actualmente estan **todos los personajes implementados**.
 
 ### Conos de Luz
 
@@ -80,7 +80,6 @@ El proyecto **no pretende ser una copia** de la página original.
 Si encuentras:
 
 * Errores de interfaz
-* Cálculos incorrectos
 * Personajes que no funcionan correctamente
 * Conos de Luz que no aparecen
 * Problemas de compatibilidad
