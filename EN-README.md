@@ -132,8 +132,6 @@ This project is an **unofficial fan-made application** and is not affiliated wit
 
 ## ⭐ Contributions & Feedback
 
-Although the project is currently in an Alpha stage, bug reports and suggestions are welcome.
-
 If you encounter any problems, please use the **Issues** section of this repository to report them.
 
 ---
