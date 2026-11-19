@@ -51,6 +51,18 @@ export const Worlds = {
 
 export type World = typeof Worlds[keyof typeof Worlds];
 
+export const RelicsSets = {
+
+} as const;
+
+export type RelicsSet = typeof RelicsSets[keyof typeof RelicsSets];
+
+export const OrnamentsSets = {
+
+} as const;
+
+export type OrnamentsSet = typeof OrnamentsSets[keyof typeof OrnamentsSets];
+
 export const Texts = {
 
     ArrowsTextENG: (rank: number): string => {

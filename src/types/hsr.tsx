@@ -1,4 +1,4 @@
-import type { Path, Element, World } from "../items/item/ResourcesLists";
+import type { Path, Element, World, RelicsSet, OrnamentsSet } from "../items/item/ResourcesLists";
 
 export interface Character {
 
@@ -543,4 +543,11 @@ export class EruditionTreeLayout {
 
 
   ];
+}
+
+export interface Relics {
+  Set: RelicsSet;
+}
+export interface Ornaments {
+  Set: OrnamentsSet;
 }
