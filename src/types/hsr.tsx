@@ -545,9 +545,24 @@ export class EruditionTreeLayout {
   ];
 }
 
+export interface Piece {
+  name: string;
+  image: string;
+}
+
 export interface Relics {
   Set: RelicsSet;
+  icon: string;
+
+  a1: Piece;
+  a2: Piece;
+  a3: Piece;
+  a4: Piece;
 }
 export interface Ornaments {
   Set: OrnamentsSet;
+  icon: string;
+
+  a1: Piece;
+  a2: Piece;
 }

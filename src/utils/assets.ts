@@ -44,3 +44,9 @@ export const getExImg = (character: string) =>
 
 export const getExIcon = (character: string) =>
     asset(`characters/${character}/eidolons/ExEidolonIcon.webp`);
+
+export const getRelicSetIcon =  (Set: string) =>
+    asset(`artifacts/relics/${Set}/icon.webp`)
+
+export const getRelicPieceIcon =  (Set: string, Piece: string) =>
+    asset(`artifacts/relics/${Set}/${Piece}.webp`)

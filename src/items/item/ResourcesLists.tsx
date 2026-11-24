@@ -52,7 +52,13 @@ export const Worlds = {
 export type World = typeof Worlds[keyof typeof Worlds];
 
 export const RelicsSets = {
-
+    AsNavigatorIseeSeesItSet: [
+        "As Navigator I see Sees It", 
+        `
+        <b>2 Piece:</b> Increases ATK by 12%<br><br>
+        <b>4 Piece:</b> When the wearer enters combat or uses Skill, the DMG dealt by their Skill and Ultimate increases by 18%, stacking up to 3 times. At the start of the wearer's turn or after using Ultimate, removes 1 stack of this effect.<br>
+        `
+    ],
 } as const;
 
 export type RelicsSet = typeof RelicsSets[keyof typeof RelicsSets];
