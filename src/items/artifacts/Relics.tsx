@@ -9,20 +9,20 @@ const AsNavigatorIseeSeesIt: Relics = {
     icon: getRelicSetIcon("As Navigator Isee Sees It"),
 
     a1: {
-        name: "Navigators Deep Space Mirror",
+        name: "Navigator's Deep Space Mirror",
         image: getRelicPieceIcon("As Navigator Isee Sees It", "NavigatorsDeepSpaceMirror")
     },
     a2: {
-        name: "",
-        image: ""
+        name: "Navigator's Game Die",
+        image: getRelicPieceIcon("Navigators Game Die",  "NavigatorsDeepSpaceMirror")
     },
     a3: {
-        name: "",
-        image: ""
+        name: "Navigator's Astral Chart Uniform",
+        image: getRelicPieceIcon("NavigatorsAstralChartUniform", "NavigatorsDeepSpaceMirror")
     },
     a4: {
-        name: "",
-        image: ""
+        name: "Navigator's Everstride Boots",
+        image: getRelicPieceIcon("NavigatorsEverstrideBoots", "NavigatorsDeepSpaceMirror")
     },
 };
 
